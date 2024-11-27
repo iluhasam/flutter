@@ -1,0 +1,27 @@
+name: manager_flutter
+description: Personal Information Manager
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  scoped_model: ^2.0.0
+  sqflite: ^2.0.0+3
+  path_provider: ^2.0.11
+  flutter_slidable: ^2.0.0
+  intl: ^0.18.0
+  image_picker: ^0.8.6+7
+  flutter_calendar_carousel: ^2.0.0
+  flutter_iconpicker: ^3.0.4
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
